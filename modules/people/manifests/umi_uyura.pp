@@ -24,6 +24,7 @@ class people::umi_uyura {
   include virtualbox
   include vagrant
   include github_for_mac
+  include postgresapp
   include sourcetree
   include sequel_pro
   include pgadmin3
@@ -56,6 +57,9 @@ class people::umi_uyura {
 #     'CocoaEmacs':
 #       source => "http://emacsformacosx.com/emacs-builds/Emacs-24.3-universal-10.6.8.dmg",
 #       provider => appdmg;
+    'JavaForOSX':
+	  source => "http://support.apple.com/downloads/DL1572/ja_JP/JavaForOSX2013-05.dmg",
+	  provider => pkgdmg;
     'ClamXav':
       source => "http://www.clamxav.com/downloads/ClamXav_2.6.1.dmg",
       provider => appdmg;
