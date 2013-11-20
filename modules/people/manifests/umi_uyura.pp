@@ -92,4 +92,28 @@ class people::umi_uyura {
   $home     = "/Users/${::boxen_user}"
   $src      = "${home}/src"
   $dotfiles = "${src}/dotfile"
+
+  # Node.js settings
+  class { 'nodejs::global':
+    version => 'v0.10'
+  }
+
+  $nodejs_modules = [
+    'titanium',
+	'titanium-code-processor',
+	'alloy',
+	'acs',
+	'tishadow',
+	'jslint',
+    'express',
+	'jade',
+	'stylus',
+	'supervisor',
+	'roots'
+  ]
+
+  nodejs::module { $nodejs_modules :
+    node_version => 'v0.10'
+  }
+  
 }
