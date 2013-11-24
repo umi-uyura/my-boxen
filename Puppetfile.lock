@@ -204,11 +204,6 @@ GITHUBTARBALL
     xquartz (1.1.0)
 
 GITHUBTARBALL
-  remote: erichkist/puppet-xmind
-  specs:
-    xmind (1.0.1)
-
-GITHUBTARBALL
   remote: joshuairl/puppet-filezilla
   specs:
     filezilla (1.0.0)
@@ -273,6 +268,5 @@ DEPENDENCIES
   vagrant (= 3.0.0)
   virtualbox (= 1.0.7)
   vlc (= 1.0.5)
-  xmind (= 1.0.1)
   xquartz (= 1.1.0)
 

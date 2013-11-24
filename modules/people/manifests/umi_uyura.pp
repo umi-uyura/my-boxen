@@ -14,7 +14,6 @@ class people::umi_uyura {
   include skitch
   include dropbox
   include bitcasa
-  include xmind
   include libreoffice
   include libreoffice::languagepack::ja
   include adobe_reader
@@ -75,6 +74,9 @@ class people::umi_uyura {
     'Keka':
       source => "http://download.kekaosx.com/Keka-1.0.3-intel.dmg",
       provider => appdmg;
+	'XMind':
+	  source => "http://www.xmind.net/xmind/downloads/xmind-macosx-3.4.0.201311050558.dmg",
+	  provider => appdmg;
     'Mou':
       source => "http://mouapp.com/download/Mou.zip",
       provider => compressed_app;
@@ -85,7 +87,7 @@ class people::umi_uyura {
       source => "http://kobito.qiita.com/download/Kobito_v1.8.2.zip",
       provider => compressed_app;
     'Wi2Connect':
-      source => "https://service.wi2.ne.jp/sw/autoLogin/MacOSX/Wi2-Connect-MacOSX_5.0.0.0.dmg",
+	  source => "https://service.wi2.ne.jp/sw/autoLogin/MacOSX/Wi2-Connect-MacOSX.dmg",
       provider => appdmg;
   }
 
