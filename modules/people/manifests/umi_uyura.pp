@@ -6,6 +6,7 @@ class people::umi_uyura {
   include osx::finder::show_removable_media_on_desktop
   include osx::finder::unhide_library
   include osx::no_network_dsstores
+  include homebrew
   include java
   include keepassx
   include chrome::beta
@@ -37,12 +38,21 @@ class people::umi_uyura {
   include handbrake
   include mplayerx
 
-  # install homebrew package
+  # install homebrew packages
   package {
     [
+	  'imagemagick',
+	  'lv',
 	  'tree',
-      'wget'
+      'wget',
+	  'w3m'
     ]:
+  }
+
+  # generate lgrep(lv) symlink
+  file { "${homebrew::config::installdir}/bin/lgrep":
+    ensure => link,
+    target => "${homebrew::config::installdir}/bin/lv"
   }
 
   # install mac apps
@@ -110,12 +120,12 @@ class people::umi_uyura {
     'express',
 	'jade',
 	'stylus',
-	'supervisor',
-	'roots'
+	'roots',
+	'supervisor'
   ]
 
   nodejs::module { $nodejs_modules :
     node_version => 'v0.10'
   }
-  
+
 }
