@@ -99,6 +99,9 @@ class people::umi_uyura {
     'Wi2Connect':
 	  source => "https://service.wi2.ne.jp/sw/autoLogin/MacOSX/Wi2-Connect-MacOSX.dmg",
       provider => appdmg;
+	'1CheckerForMac':
+	  source => "http://www.1checker.com/download?file=1Checker_for_Mac.dmg",
+	  provider => appdmg;
   }
 
   $home     = "/Users/${::boxen_user}"
