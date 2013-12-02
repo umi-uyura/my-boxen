@@ -108,7 +108,7 @@ class people::umi_uyura {
   $src      = "${home}/src"
   $dotfiles = "${src}/dotfile"
 
-  # Node.js settings
+  # Node.js settings  
   class { 'nodejs::global':
     version => 'v0.10'
   }
@@ -123,7 +123,8 @@ class people::umi_uyura {
     'express',
 	'jade',
 	'stylus',
-	'roots',
+#	'roots',
+#	'markup',
 	'supervisor'
   ]
 
