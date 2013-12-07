@@ -6,7 +6,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxelly/puppet-bitcasa
   specs:
-    bitcasa (2.0.0)
+    bitcasa (3.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-adobe_reader
@@ -21,7 +21,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
-    chrome (1.1.1)
+    chrome (1.1.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-cyberduck
@@ -36,7 +36,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
-    dropbox (1.1.1)
+    dropbox (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-evernote
@@ -46,7 +46,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.1.4)
+    firefox (1.1.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -141,7 +141,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
-    osx (1.6.0)
+    osx (2.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-pgadmin3
@@ -186,7 +186,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
-    skype (1.0.6)
+    skype (1.0.7)
 
 GITHUBTARBALL
   remote: boxen/puppet-sourcetree
@@ -206,7 +206,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.7)
+    virtualbox (1.0.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
@@ -241,15 +241,15 @@ GITHUBTARBALL
 DEPENDENCIES
   adobe_reader (= 1.1.0)
   appcleaner (= 2.0.0)
-  bitcasa (= 2.0.0)
+  bitcasa (= 3.0.0)
   boxen (= 3.3.4)
-  chrome (= 1.1.1)
+  chrome (= 1.1.2)
   cyberduck (= 1.0.1)
   dnsmasq (= 1.0.0)
-  dropbox (= 1.1.1)
+  dropbox (= 1.2.0)
   evernote (= 2.0.4)
   filezilla (= 1.0.0)
-  firefox (= 1.1.4)
+  firefox (= 1.1.5)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   gimp (= 1.0.0)
@@ -270,7 +270,7 @@ DEPENDENCIES
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
-  osx (= 1.6.0)
+  osx (= 2.2.0)
   pgadmin3 (= 1.0.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
@@ -279,12 +279,12 @@ DEPENDENCIES
   ruby (= 6.7.2)
   sequel_pro (= 1.0.1)
   skitch (= 1.0.2)
-  skype (= 1.0.6)
+  skype (= 1.0.7)
   sourcetree (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
   vagrant (= 3.0.0)
-  virtualbox (= 1.0.7)
+  virtualbox (= 1.0.9)
   vlc (= 1.0.5)
   xquartz (= 1.1.0)
 
