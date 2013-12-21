@@ -43,6 +43,7 @@ class people::umi_uyura {
     [
 	  'imagemagick',
 	  'lv',
+	  'subversion',
 	  'tree',
       'wget',
 	  'w3m'
