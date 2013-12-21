@@ -37,6 +37,7 @@ class people::umi_uyura {
   include vlc
   include handbrake
   include mplayerx
+  include caffeine
 
   # install homebrew packages
   package {
