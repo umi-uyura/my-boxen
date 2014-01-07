@@ -80,6 +80,9 @@ class people::umi_uyura {
     'svnX':
       source => "http://www.lachoseinteractive.net/files/svnX_0.9.13.dmg",
       provider => appdmg;
+	'DiskWave':
+	  source => "http://diskwave.barthe.ph/download/DiskWave_0.4.dmg",
+	  provider => appdmg;
     'Zipeg':
       source => "http://www.zipeg.net/downloads/zipeg_mac.dmg",
       provider => appdmg;
@@ -121,12 +124,13 @@ class people::umi_uyura {
 	'alloy',
 	'acs',
 	'tishadow',
+	'ti-inspector',
 	'jslint',
     'express',
 	'jade',
 	'stylus',
-#	'roots',
-#	'markup',
+	'roots',
+	'phonegap',
 	'supervisor'
   ]
 
