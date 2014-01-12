@@ -125,6 +125,7 @@ class people::umi_uyura {
 	'acs',
 	'tishadow',
 	'ti-inspector',
+	'gittio',
 	'jslint',
     'express',
 	'jade',
