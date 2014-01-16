@@ -51,7 +51,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.1.5)
+    firefox (1.1.7)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -124,9 +124,14 @@ GITHUBTARBALL
     keepassx (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-libreoffice
+  specs:
+    libreoffice (4.1.4)
+
+GITHUBTARBALL
   remote: boxen/puppet-mplayerx
   specs:
-    mplayerx (1.0.1)
+    mplayerx (1.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -191,7 +196,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
-    skype (1.0.7)
+    skype (1.0.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-sourcetree
@@ -206,12 +211,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.0.0)
+    vagrant (3.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.9)
+    virtualbox (1.0.10)
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
@@ -238,11 +243,6 @@ GITHUBTARBALL
   specs:
     stdlib (4.1.0)
 
-GITHUBTARBALL
-  remote: umi-uyura/puppet-libreoffice
-  specs:
-    libreoffice (4.1.3)
-
 DEPENDENCIES
   adobe_reader (= 1.1.0)
   appcleaner (= 2.0.0)
@@ -255,7 +255,7 @@ DEPENDENCIES
   dropbox (= 1.2.0)
   evernote (= 2.0.4)
   filezilla (= 1.0.0)
-  firefox (= 1.1.5)
+  firefox (= 1.1.7)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   gimp (= 1.0.0)
@@ -271,8 +271,8 @@ DEPENDENCIES
   inkscape (= 1.0.3)
   java (= 1.1.2)
   keepassx (= 1.0.0)
-  libreoffice (= 4.1.3)
-  mplayerx (= 1.0.1)
+  libreoffice (= 4.1.4)
+  mplayerx (= 1.0.2)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
@@ -285,12 +285,12 @@ DEPENDENCIES
   ruby (= 6.7.2)
   sequel_pro (= 1.0.1)
   skitch (= 1.0.2)
-  skype (= 1.0.7)
+  skype (= 1.0.8)
   sourcetree (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
-  vagrant (= 3.0.0)
-  virtualbox (= 1.0.9)
+  vagrant (= 3.0.3)
+  virtualbox (= 1.0.10)
   vlc (= 1.0.5)
   xquartz (= 1.1.0)
 
