@@ -16,7 +16,7 @@ class people::umi_uyura {
   include dropbox
   include bitcasa
   include libreoffice
-  include libreoffice::languagepack::ja
+#  include libreoffice::languagepack::ja
   include adobe_reader
   include skype
 #   include android::sdk
@@ -139,4 +139,8 @@ class people::umi_uyura {
     node_version => 'v0.10'
   }
 
+  # LibreOffice settings
+  class { 'libreoffice::languagepack':
+    locale => 'ja'
+  }
 }
