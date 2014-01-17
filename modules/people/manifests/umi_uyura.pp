@@ -102,6 +102,9 @@ class people::umi_uyura {
     'Kobito':
       source => "http://kobito.qiita.com/download/Kobito_v1.8.2.zip",
       provider => compressed_app;
+#	'Genymotion':
+#	  source => "https://ssl-files.genymotion.com/genymotion/genymotion-2.0.3/genymotion-2.0.3.dmg",
+#	  provider => appdmg;
     'Wi2Connect':
 	  source => "https://service.wi2.ne.jp/sw/autoLogin/MacOSX/Wi2-Connect-MacOSX.dmg",
       provider => appdmg;
