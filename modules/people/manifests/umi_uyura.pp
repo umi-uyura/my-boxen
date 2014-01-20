@@ -1,11 +1,4 @@
-class people::umi_uyura {
-  include osx::global::enable_keyboard_control_access
-  include osx::dock::autohide
-  include osx::finder::show_external_hard_drives_on_desktop
-  include osx::finder::show_mounted_servers_on_desktop
-  include osx::finder::show_removable_media_on_desktop
-  include osx::finder::unhide_library
-  include osx::no_network_dsstores
+class people::umi_uyura {  
   include homebrew
   include java
   include keepassx
@@ -38,6 +31,30 @@ class people::umi_uyura {
   include handbrake
   include mplayerx
   include caffeine
+
+  #
+  # OS X Settings
+  #
+
+  class osx::dock::kill_dashbord {
+    include osx::dock
+    boxen::osx_defaults { 'kill dashbord':
+      user   => $::boxen_user,
+      domain => 'com.apple.dashboard',
+      key    => 'mcx-disabled',
+      value  => YES,
+      notify => Exec['killall Dock'];
+    }
+  }
+  
+  include osx::global::enable_keyboard_control_access
+  include osx::dock::autohide
+  include osx::dock::kill_dashbord
+  include osx::finder::show_external_hard_drives_on_desktop
+  include osx::finder::show_mounted_servers_on_desktop
+  include osx::finder::show_removable_media_on_desktop
+  include osx::finder::unhide_library
+  include osx::no_network_dsstores
 
   # install homebrew packages
   package {
