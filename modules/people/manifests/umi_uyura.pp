@@ -113,6 +113,9 @@ class people::umi_uyura {
     'Mou':
       source => "http://mouapp.com/download/Mou.zip",
       provider => compressed_app;
+	'GanttProject':
+	  source => "https://ganttproject.googlecode.com/files/ganttproject-2.6.2-r1544.dmg",
+	  provider => appdmg;
     'Paintbrush':
       source => "http://downloads.sourceforge.net/paintbrush/Paintbrush-2.1.1.zip",
       provider => compressed_app;
