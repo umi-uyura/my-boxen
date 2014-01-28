@@ -9,11 +9,11 @@ class people::umi_uyura {
   include dropbox
   include bitcasa
   include libreoffice
-#  include libreoffice::languagepack::ja
+  #include libreoffice::languagepack::ja
   include adobe_reader
   include skype
-#   include android::sdk
-  include heroku
+  #include android::sdk
+  #include heroku
   include virtualbox
   include vagrant
   include github_for_mac
@@ -95,6 +95,9 @@ class people::umi_uyura {
     'Copy':
       source => "https://copy.com/install/mac/Copy.dmg",
       provider => appdmg;
+	'HerokuToolbelt':
+	  source => "https://s3.amazonaws.com/assets.heroku.com/heroku-toolbelt/heroku-toolbelt.pkg",
+	  provider => pkgdmg;
     'svnX':
       source => "http://www.lachoseinteractive.net/files/svnX_0.9.13.dmg",
       provider => appdmg;
