@@ -90,7 +90,7 @@ class people::umi_uyura {
 	  source => "http://support.apple.com/downloads/DL1572/ja_JP/JavaForOSX2013-05.dmg",
 	  provider => pkgdmg;
     'ClamXav':
-      source => "http://www.clamxav.com/downloads/ClamXav_2.6.1.dmg",
+      source => "http://www.clamxav.com/downloads/ClamXav_2.6.2.dmg",
       provider => appdmg;
 	'TotalTerminal':
 	  source => "http://downloads.binaryage.com/TotalTerminal-1.4.10.dmg",
@@ -126,7 +126,7 @@ class people::umi_uyura {
       source => "http://downloads.sourceforge.net/paintbrush/Paintbrush-2.1.1.zip",
       provider => compressed_app;
     'Kobito':
-      source => "http://kobito.qiita.com/download/Kobito_v1.8.2.zip",
+      source => "http://kobito.qiita.com/download/Kobito_v1.8.7.zip",
       provider => compressed_app;
 #	'Genymotion':
 #	  source => "https://ssl-files.genymotion.com/genymotion/genymotion-2.0.3/genymotion-2.0.3.dmg",
