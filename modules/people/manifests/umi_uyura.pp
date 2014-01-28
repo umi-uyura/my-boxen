@@ -92,6 +92,9 @@ class people::umi_uyura {
     'ClamXav':
       source => "http://www.clamxav.com/downloads/ClamXav_2.6.1.dmg",
       provider => appdmg;
+	'TotalTerminal':
+	  source => "http://downloads.binaryage.com/TotalTerminal-1.4.10.dmg",
+	  provider => pkgdmg;
     'Copy':
       source => "https://copy.com/install/mac/Copy.dmg",
       provider => appdmg;
