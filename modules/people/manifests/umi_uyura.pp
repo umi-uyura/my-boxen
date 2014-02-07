@@ -102,7 +102,7 @@ class people::umi_uyura {
 	  source => "https://s3.amazonaws.com/assets.heroku.com/heroku-toolbelt/heroku-toolbelt.pkg",
 	  provider => pkgdmg;
     'svnX':
-      source => "http://www.lachoseinteractive.net/files/svnX_0.9.13.dmg",
+      source => "https://svnx.googlecode.com/files/svnX%201.3.4.dmg",
       provider => appdmg;
 	'DiskWave':
 	  source => "http://diskwave.barthe.ph/download/DiskWave_0.4.dmg",
