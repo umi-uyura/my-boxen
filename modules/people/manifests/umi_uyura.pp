@@ -114,7 +114,7 @@ class people::umi_uyura {
       source => "http://download.kekaosx.com/Keka-1.0.3-intel.dmg",
       provider => appdmg;
 	'XMind':
-	  source => "http://www.xmind.net/xmind/downloads/xmind-macosx-3.4.0.201311050558.dmg",
+	  source => "http://www.xmind.net/xmind/downloads/xmind-macosx-3.4.1.201401221918.dmg",
 	  provider => appdmg;
     'Mou':
       source => "http://mouapp.com/download/Mou.zip",
