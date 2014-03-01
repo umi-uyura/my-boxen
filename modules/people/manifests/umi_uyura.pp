@@ -23,7 +23,6 @@ class people::umi_uyura {
   include pgadmin3
   include filezilla
   include cyberduck
-  include appcleaner
   include imageoptim
   include inkscape
   include gimp
@@ -92,6 +91,9 @@ class people::umi_uyura {
     'ClamXav':
       source => "http://www.clamxav.com/downloads/ClamXav_2.6.2.dmg",
       provider => appdmg;
+	'AppCleaner':
+	  source => "http://www.freemacsoft.net/downloads/AppCleaner_2.2.3.zip",
+	  provider => compressed_app;
 	'TotalTerminal':
 	  source => "http://downloads.binaryage.com/TotalTerminal-1.4.10.dmg",
 	  provider => pkgdmg;
