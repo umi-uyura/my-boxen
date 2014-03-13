@@ -1,9 +1,4 @@
 GITHUBTARBALL
-  remote: boxelly/puppet-appcleaner
-  specs:
-    appcleaner (2.0.0)
-
-GITHUBTARBALL
   remote: boxelly/puppet-bitcasa
   specs:
     bitcasa (3.0.0)
@@ -11,12 +6,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-adobe_reader
   specs:
-    adobe_reader (1.1.0)
+    adobe_reader (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.3.4)
+    boxen (3.3.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-caffeine
@@ -36,7 +31,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
-    dnsmasq (1.0.0)
+    dnsmasq (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
@@ -46,17 +41,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-evernote
   specs:
-    evernote (2.0.4)
+    evernote (2.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.1.7)
+    firefox (1.1.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
-    foreman (1.0.0)
+    foreman (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -71,17 +66,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (1.2.5)
+    git (1.3.7)
 
 GITHUBTARBALL
   remote: boxen/puppet-github_for_mac
   specs:
-    github_for_mac (1.0.1)
+    github_for_mac (1.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
-    go (1.0.0)
+    go (2.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-handbrake
@@ -96,12 +91,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.5.1)
+    homebrew (1.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.0.3)
+    hub (1.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-imageoptim
@@ -136,12 +131,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.2)
+    nginx (1.4.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (3.3.0)
+    nodejs (3.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -151,7 +146,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
-    osx (2.2.0)
+    osx (2.2.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-pgadmin3
@@ -161,7 +156,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
-    phantomjs (2.0.2)
+    phantomjs (2.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
@@ -176,12 +171,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
-    repository (2.2.0)
+    repository (2.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (6.7.2)
+    ruby (7.1.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-sequel_pro
@@ -211,7 +206,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.0.3)
+    vagrant (3.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
@@ -226,7 +221,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
-    xquartz (1.1.0)
+    xquartz (1.1.1)
 
 GITHUBTARBALL
   remote: joshuairl/puppet-filezilla
@@ -236,61 +231,66 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
-    inifile (1.0.0)
+    inifile (1.0.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (4.1.0)
 
+GITHUBTARBALL
+  remote: ripienaar/puppet-module-data
+  specs:
+    module-data (0.0.1)
+
 DEPENDENCIES
-  adobe_reader (= 1.1.0)
-  appcleaner (= 2.0.0)
+  adobe_reader (= 1.2.0)
   bitcasa (= 3.0.0)
-  boxen (= 3.3.4)
+  boxen (= 3.3.8)
   caffeine (= 1.0.0)
   chrome (= 1.1.2)
   cyberduck (= 1.0.1)
-  dnsmasq (= 1.0.0)
+  dnsmasq (= 1.0.1)
   dropbox (= 1.2.0)
-  evernote (= 2.0.4)
+  evernote (= 2.0.5)
   filezilla (= 1.0.0)
-  firefox (= 1.1.7)
-  foreman (= 1.0.0)
+  firefox (= 1.1.8)
+  foreman (= 1.1.0)
   gcc (= 2.0.1)
   gimp (= 1.0.0)
-  git (= 1.2.5)
-  github_for_mac (= 1.0.1)
-  go (= 1.0.0)
+  git (= 1.3.7)
+  github_for_mac (= 1.0.2)
+  go (= 2.0.1)
   handbrake (= 1.0.1)
   heroku (= 2.1.1)
-  homebrew (= 1.5.1)
-  hub (= 1.0.3)
+  homebrew (= 1.6.0)
+  hub (= 1.3.0)
   imageoptim (= 0.0.2)
-  inifile (= 1.0.0)
+  inifile (= 1.0.1)
   inkscape (= 1.0.3)
   java (= 1.1.2)
   keepassx (= 1.0.0)
   libreoffice (= 4.1.4)
+  module-data (= 0.0.1)
   mplayerx (= 1.0.2)
-  nginx (= 1.4.2)
-  nodejs (= 3.3.0)
+  nginx (= 1.4.3)
+  nodejs (= 3.6.0)
   openssl (= 1.0.0)
-  osx (= 2.2.0)
+  osx (= 2.2.2)
   pgadmin3 (= 1.0.0)
-  phantomjs (= 2.0.2)
+  phantomjs (= 2.1.0)
   pkgconfig (= 1.0.0)
   postgresapp (= 1.0.0)
-  repository (= 2.2.0)
-  ruby (= 6.7.2)
+  repository (= 2.3.0)
+  ruby (= 7.1.6)
   sequel_pro (= 1.0.1)
   skitch (= 1.0.2)
   skype (= 1.0.8)
   sourcetree (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
-  vagrant (= 3.0.3)
+  vagrant (= 3.0.6)
   virtualbox (= 1.0.10)
   vlc (= 1.0.5)
-  xquartz (= 1.1.0)
+  xquartz (= 1.1.1)
 
