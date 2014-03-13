@@ -159,6 +159,7 @@ class people::umi_uyura {
 	'ti-inspector',
 	'gittio',
 	'jslint',
+	'node-inspector',
     'express',
 	'jade',
 	'stylus',
