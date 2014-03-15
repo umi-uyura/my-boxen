@@ -91,7 +91,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.6.0)
+    homebrew (1.6.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -176,7 +176,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (7.1.6)
+    ruby (7.2.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-sequel_pro
@@ -263,7 +263,7 @@ DEPENDENCIES
   go (= 2.0.1)
   handbrake (= 1.0.1)
   heroku (= 2.1.1)
-  homebrew (= 1.6.0)
+  homebrew (= 1.6.1)
   hub (= 1.3.0)
   imageoptim (= 0.0.2)
   inifile (= 1.0.1)
@@ -282,7 +282,7 @@ DEPENDENCIES
   pkgconfig (= 1.0.0)
   postgresapp (= 1.0.0)
   repository (= 2.3.0)
-  ruby (= 7.1.6)
+  ruby (= 7.2.3)
   sequel_pro (= 1.0.1)
   skitch (= 1.0.2)
   skype (= 1.0.8)
