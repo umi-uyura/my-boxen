@@ -127,6 +127,10 @@ class people::umi_uyura {
     'Paintbrush':
       source => "http://downloads.sourceforge.net/paintbrush/Paintbrush-2.1.1.zip",
       provider => compressed_app;
+	'ImageAlpha':
+	  source => "http://pngmini.com/ImageAlpha1.3.5.tar.bz2",
+	  provider => compressed_app,
+	  flavor => 'tbz';
     'Kobito':
       source => "http://kobito.qiita.com/download/Kobito_v1.8.7.zip",
       provider => compressed_app;
