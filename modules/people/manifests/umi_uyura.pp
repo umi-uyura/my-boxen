@@ -118,6 +118,9 @@ class people::umi_uyura {
 	'XMind':
 	  source => "http://www.xmind.net/xmind/downloads/xmind-macosx-3.4.1.201401221918.dmg",
 	  provider => appdmg;
+	'Haroopad':
+	  source => "https://dl.dropbox.com/s/dhclfu538188yox/haroopad-v0.11.1.dmg",
+	  provider => appdmg;
     'Mou':
       source => "http://mouapp.com/download/Mou.zip",
       provider => compressed_app;
