@@ -58,13 +58,13 @@ class people::umi_uyura {
   # install homebrew packages
   package {
     [
-	  'imagemagick',
-	  'lv',
-	  'subversion',
-	  'tig',
-	  'tree',
+      'imagemagick',
+      'lv',
+      'subversion',
+      'tig',
+      'tree',
       'wget',
-	  'w3m'
+      'w3m'
     ]:
   }
 
@@ -86,66 +86,66 @@ class people::umi_uyura {
 #       source => "http://emacsformacosx.com/emacs-builds/Emacs-24.3-universal-10.6.8.dmg",
 #       provider => appdmg;
     'JavaForOSX':
-	  source => "http://support.apple.com/downloads/DL1572/ja_JP/JavaForOSX2013-05.dmg",
-	  provider => pkgdmg;
+      source => "http://support.apple.com/downloads/DL1572/ja_JP/JavaForOSX2013-05.dmg",
+      provider => pkgdmg;
     'ClamXav':
       source => "http://www.clamxav.com/downloads/ClamXav_2.6.2.dmg",
       provider => appdmg;
-	'AppCleaner':
-	  source => "http://www.freemacsoft.net/downloads/AppCleaner_2.2.3.zip",
-	  provider => compressed_app;
-	'TotalTerminal':
-	  source => "http://downloads.binaryage.com/TotalTerminal-1.4.10.dmg",
-	  provider => pkgdmg;
+    'AppCleaner':
+      source => "http://www.freemacsoft.net/downloads/AppCleaner_2.2.3.zip",
+      provider => compressed_app;
+    'TotalTerminal':
+      source => "http://downloads.binaryage.com/TotalTerminal-1.4.10.dmg",
+      provider => pkgdmg;
     'Copy':
       source => "https://copy.com/install/mac/Copy.dmg",
       provider => appdmg;
-	'HerokuToolbelt':
-	  source => "https://s3.amazonaws.com/assets.heroku.com/heroku-toolbelt/heroku-toolbelt.pkg",
-	  provider => pkgdmg;
+    'HerokuToolbelt':
+      source => "https://s3.amazonaws.com/assets.heroku.com/heroku-toolbelt/heroku-toolbelt.pkg",
+      provider => pkgdmg;
     'svnX':
       source => "https://svnx.googlecode.com/files/svnX%201.3.4.dmg",
       provider => appdmg;
-	'DiskWave':
-	  source => "http://diskwave.barthe.ph/download/DiskWave_0.4.dmg",
-	  provider => appdmg;
+    'DiskWave':
+      source => "http://diskwave.barthe.ph/download/DiskWave_0.4.dmg",
+      provider => appdmg;
     'Zipeg':
       source => "http://www.zipeg.net/downloads/zipeg_mac.dmg",
       provider => appdmg;
     'Keka':
       source => "http://download.kekaosx.com/Keka-1.0.3-intel.dmg",
       provider => appdmg;
-	'XMind':
-	  source => "http://www.xmind.net/xmind/downloads/xmind-macosx-3.4.1.201401221918.dmg",
-	  provider => appdmg;
-	'Haroopad':
-	  source => "https://dl.dropbox.com/s/dhclfu538188yox/haroopad-v0.11.1.dmg",
-	  provider => appdmg;
+    'XMind':
+      source => "http://www.xmind.net/xmind/downloads/xmind-macosx-3.4.1.201401221918.dmg",
+      provider => appdmg;
+    'Haroopad':
+      source => "https://dl.dropbox.com/s/dhclfu538188yox/haroopad-v0.11.1.dmg",
+      provider => appdmg;
     'Mou':
       source => "http://mouapp.com/download/Mou.zip",
       provider => compressed_app;
-	'GanttProject':
-	  source => "https://ganttproject.googlecode.com/files/ganttproject-2.6.4-r1622.dmg",
-	  provider => appdmg;
+    'GanttProject':
+      source => "https://ganttproject.googlecode.com/files/ganttproject-2.6.4-r1622.dmg",
+      provider => appdmg;
     'Paintbrush':
       source => "http://downloads.sourceforge.net/paintbrush/Paintbrush-2.1.1.zip",
       provider => compressed_app;
-	'ImageAlpha':
-	  source => "http://pngmini.com/ImageAlpha1.3.5.tar.bz2",
-	  provider => compressed_app,
-	  flavor => 'tbz';
+    'ImageAlpha':
+      source => "http://pngmini.com/ImageAlpha1.3.5.tar.bz2",
+      provider => compressed_app,
+      flavor => 'tbz';
     'Kobito':
       source => "http://kobito.qiita.com/download/Kobito_v1.8.7.zip",
       provider => compressed_app;
-#	'Genymotion':
-#	  source => "https://ssl-files.genymotion.com/genymotion/genymotion-2.0.3/genymotion-2.0.3.dmg",
-#	  provider => appdmg;
+#   'Genymotion':
+#     source => "https://ssl-files.genymotion.com/genymotion/genymotion-2.0.3/genymotion-2.0.3.dmg",
+#     provider => appdmg;
     'Wi2Connect':
-	  source => "https://service.wi2.ne.jp/sw/autoLogin/MacOSX/Wi2-Connect-MacOSX.dmg",
+      source => "https://service.wi2.ne.jp/sw/autoLogin/MacOSX/Wi2-Connect-MacOSX.dmg",
       provider => appdmg;
-	'1CheckerForMac':
-	  source => "http://www.1checker.com/download?file=1Checker_for_Mac.dmg",
-	  provider => appdmg;
+    '1CheckerForMac':
+      source => "http://www.1checker.com/download?file=1Checker_for_Mac.dmg",
+      provider => appdmg;
   }
 
   $home     = "/Users/${::boxen_user}"
@@ -159,20 +159,20 @@ class people::umi_uyura {
 
   $nodejs_modules = [
     'titanium',
-	'titanium-code-processor',
-	'alloy',
-	'acs',
-	'tishadow',
-	'ti-inspector',
-	'gittio',
-	'jslint',
-	'node-inspector',
+    'titanium-code-processor',
+    'alloy',
+    'acs',
+    'tishadow',
+    'ti-inspector',
+    'gittio',
+    'jslint',
+    'node-inspector',
     'express',
-	'jade',
-	'stylus',
-	'roots',
-	'phonegap',
-	'supervisor'
+    'jade',
+    'stylus',
+    'roots',
+    'phonegap',
+    'supervisor'
   ]
 
   nodejs::module { $nodejs_modules :
