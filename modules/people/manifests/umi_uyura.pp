@@ -180,7 +180,12 @@ class people::umi_uyura {
   }
 
   # LibreOffice settings
+  class { 'libreoffice':
+    version => '4.2.2'
+  }
+  
   class { 'libreoffice::languagepack':
-    locale => 'ja'
+    locale => 'ja',
+	version => '4.2.2'
   }
 }
