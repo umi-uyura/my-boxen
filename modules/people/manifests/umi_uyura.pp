@@ -8,7 +8,7 @@ class people::umi_uyura {
   include skitch
   include dropbox
   include bitcasa
-  include libreoffice
+  #include libreoffice
   #include libreoffice::languagepack::ja
   include adobe_reader
   include skype
