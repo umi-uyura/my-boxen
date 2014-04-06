@@ -140,6 +140,9 @@ class people::umi_uyura {
 #   'Genymotion':
 #     source => "https://ssl-files.genymotion.com/genymotion/genymotion-2.0.3/genymotion-2.0.3.dmg",
 #     provider => appdmg;
+    'AndroidFileTransfer':
+      source => "https://dl.google.com/dl/androidjumper/mtp/current/androidfiletransfer.dmg",
+	  provider => appdmg;
     'Wi2Connect':
       source => "https://service.wi2.ne.jp/sw/autoLogin/MacOSX/Wi2-Connect-MacOSX.dmg",
       provider => appdmg;
