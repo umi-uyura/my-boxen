@@ -60,7 +60,7 @@ github "xquartz",     "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "osx",             "2.2.2"
+github "osx",             "2.4.0"
 github "java",            "1.1.2"
 github "keepassx",        "1.0.0"
 github "chrome",          "1.1.2"
