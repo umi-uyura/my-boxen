@@ -58,8 +58,11 @@ class people::umi_uyura {
   # install homebrew packages
   package {
     [
-      'imagemagick',
+	  'ffmpeg',
+      'ghostscript',
+	  'imagemagick',
       'lv',
+	  'pwgen',
       'subversion',
       'tig',
       'tree',
@@ -95,7 +98,7 @@ class people::umi_uyura {
       source => "http://www.freemacsoft.net/downloads/AppCleaner_2.2.3.zip",
       provider => compressed_app;
     'TotalTerminal':
-      source => "http://downloads.binaryage.com/TotalTerminal-1.4.10.dmg",
+      source => "http://downloads.binaryage.com/TotalTerminal-1.4.11.dmg",
       provider => pkgdmg;
     'Copy':
       source => "https://copy.com/install/mac/Copy.dmg",
@@ -119,13 +122,13 @@ class people::umi_uyura {
       source => "http://www.xmind.net/xmind/downloads/xmind-macosx-3.4.1.201401221918.dmg",
       provider => appdmg;
     'Haroopad':
-      source => "https://dl.dropbox.com/s/dhclfu538188yox/haroopad-v0.11.1.dmg",
+      source => "https://dl.dropbox.com/s/yvjb90ywib551ex/haroopad-v0.12.0.dmg",
       provider => appdmg;
     'Mou':
       source => "http://mouapp.com/download/Mou.zip",
       provider => compressed_app;
     'GanttProject':
-      source => "https://ganttproject.googlecode.com/files/ganttproject-2.6.4-r1622.dmg",
+      source => "http://dl.ganttproject.biz/ganttproject-2.6.6/ganttproject-2.6.6-r1715.dmg",
       provider => appdmg;
     'Paintbrush':
       source => "http://downloads.sourceforge.net/paintbrush/Paintbrush-2.1.1.zip",
