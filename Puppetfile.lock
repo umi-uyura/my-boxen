@@ -39,14 +39,9 @@ GITHUBTARBALL
     dropbox (1.2.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-evernote
-  specs:
-    evernote (2.0.5)
-
-GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.1.8)
+    firefox (1.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -61,7 +56,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gimp
   specs:
-    gimp (1.0.0)
+    gimp (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
@@ -71,7 +66,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-github_for_mac
   specs:
-    github_for_mac (1.0.2)
+    github_for_mac (1.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-go
@@ -131,7 +126,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (3.7.0)
+    nodejs (3.8.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -141,7 +136,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
-    osx (2.4.0)
+    osx (2.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-pgadmin3
@@ -171,7 +166,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.0.4)
+    ruby (8.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sequel_pro
@@ -201,12 +196,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.0.7)
+    vagrant (3.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.10)
+    virtualbox (1.0.12)
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
@@ -216,7 +211,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
-    xquartz (1.1.1)
+    xquartz (1.2.0)
 
 GITHUBTARBALL
   remote: joshuairl/puppet-filezilla
@@ -252,14 +247,13 @@ DEPENDENCIES
   cyberduck (= 1.0.1)
   dnsmasq (= 1.0.1)
   dropbox (= 1.2.0)
-  evernote (= 2.0.5)
   filezilla (= 1.0.0)
-  firefox (= 1.1.8)
+  firefox (= 1.2.1)
   foreman (= 1.2.0)
   gcc (= 2.0.101)
-  gimp (= 1.0.0)
+  gimp (= 1.0.1)
   git (= 2.4.0)
-  github_for_mac (= 1.0.2)
+  github_for_mac (= 1.0.3)
   go (= 1.1.0)
   handbrake (= 1.0.1)
   heroku (= 2.1.1)
@@ -274,23 +268,23 @@ DEPENDENCIES
   module-data (= 0.0.3)
   mplayerx (= 1.0.2)
   nginx (= 1.4.3)
-  nodejs (= 3.7.0)
+  nodejs (= 3.8.1)
   openssl (= 1.0.0)
-  osx (= 2.4.0)
+  osx (= 2.7.0)
   pgadmin3 (= 1.0.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   postgresapp (= 1.0.0)
   repository (= 2.3.0)
-  ruby (= 8.0.4)
+  ruby (= 8.1.0)
   sequel_pro (= 1.0.1)
   skitch (= 1.0.2)
   skype (= 1.0.8)
   sourcetree (= 1.0.0)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
-  vagrant (= 3.0.7)
-  virtualbox (= 1.0.10)
+  vagrant (= 3.1.1)
+  virtualbox (= 1.0.12)
   vlc (= 1.1.0)
-  xquartz (= 1.1.1)
+  xquartz (= 1.2.0)
 
