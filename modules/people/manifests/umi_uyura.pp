@@ -156,6 +156,9 @@ class people::umi_uyura {
 	'SQLiteBrowser':
 	  source => "http://jaist.dl.sourceforge.net/project/sqlitebrowser/sqlitebrowser/2.0%20beta1/sqlitebrowser_200_b1_osx.zip",
 	  provider => compressed_app;
+	'Onyx':
+	  source => "http://joel.barriere.pagesperso-orange.fr/dl/109/OnyX.dmg",
+	  provider => appdmg;
     'Wi2Connect':
       source => "https://service.wi2.ne.jp/sw/autoLogin/MacOSX/Wi2-Connect-MacOSX.dmg",
       provider => appdmg;
