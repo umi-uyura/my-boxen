@@ -47,13 +47,23 @@ class people::umi_uyura {
   }
   
   include osx::global::enable_keyboard_control_access
+  include osx::global::enable_standard_function_keys
   include osx::dock::autohide
   include osx::dock::kill_dashbord
-  include osx::finder::show_external_hard_drives_on_desktop
-  include osx::finder::show_mounted_servers_on_desktop
-  include osx::finder::show_removable_media_on_desktop
+  #include osx::finder::show_external_hard_drives_on_desktop
+  #include osx::finder::show_mounted_servers_on_desktop
+  #include osx::finder::show_removable_media_on_desktop
+  include osx::finder::empty_trash_securely
   include osx::finder::unhide_library
   include osx::no_network_dsstores
+
+  osx::dock::hot_corner { 'Top Left':
+    action => 'Start Screen Saver'
+  }
+
+  osx::dock::hot_corner { 'Top Right':
+    action => 'Put Display to Sleep'
+  }
 
   # install homebrew packages
   package {
@@ -89,10 +99,10 @@ class people::umi_uyura {
 #       source => "http://emacsformacosx.com/emacs-builds/Emacs-24.3-universal-10.6.8.dmg",
 #       provider => appdmg;
     'JavaForOSX':
-      source => "http://support.apple.com/downloads/DL1572/ja_JP/JavaForOSX2013-05.dmg",
+      source => "http://support.apple.com/downloads/DL1572/ja_JP/JavaForOSX2014-001.dmg",
       provider => pkgdmg;
     'ClamXav':
-      source => "http://www.clamxav.com/downloads/ClamXav_2.6.2.dmg",
+      source => "http://www.clamxav.com/downloads/ClamXav_2.6.3.dmg",
       provider => appdmg;
     'AppCleaner':
       source => "http://www.freemacsoft.net/downloads/AppCleaner_2.2.3.zip",
@@ -116,7 +126,7 @@ class people::umi_uyura {
       source => "http://www.zipeg.net/downloads/zipeg_mac.dmg",
       provider => appdmg;
     'Keka':
-      source => "http://download.kekaosx.com/Keka-1.0.3-intel.dmg",
+      source => "http://download.kekaosx.com/Keka-1.0.4-intel.dmg",
       provider => appdmg;
     'XMind':
       source => "http://www.xmind.net/xmind/downloads/xmind-macosx-3.4.1.201401221918.dmg",
@@ -124,9 +134,6 @@ class people::umi_uyura {
     'Haroopad':
       source => "https://dl.dropbox.com/s/yvjb90ywib551ex/haroopad-v0.12.0.dmg",
       provider => appdmg;
-    'Mou':
-      source => "http://mouapp.com/download/Mou.zip",
-      provider => compressed_app;
     'GanttProject':
       source => "http://dl.ganttproject.biz/ganttproject-2.6.6/ganttproject-2.6.6-r1715.dmg",
       provider => appdmg;
@@ -138,7 +145,7 @@ class people::umi_uyura {
       provider => compressed_app,
       flavor => 'tbz';
     'Kobito':
-      source => "http://kobito.qiita.com/download/Kobito_v1.8.7.zip",
+      source => "http://kobito.qiita.com/download/Kobito_v1.9.2.zip",
       provider => compressed_app;
 #   'Genymotion':
 #     source => "https://ssl-files.genymotion.com/genymotion/genymotion-2.0.3/genymotion-2.0.3.dmg",
@@ -190,11 +197,11 @@ class people::umi_uyura {
 
   # LibreOffice settings
   class { 'libreoffice':
-    version => '4.2.2'
+    version => '4.2.5'
   }
   
   class { 'libreoffice::languagepack':
     locale => 'ja',
-	version => '4.2.2'
+	version => '4.2.5'
   }
 }
