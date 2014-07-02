@@ -4,7 +4,6 @@ class people::umi_uyura {
   include keepassx
   include chrome::beta
   include firefox
-  include evernote
   include skitch
   include dropbox
   include bitcasa
