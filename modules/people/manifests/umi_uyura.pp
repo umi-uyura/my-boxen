@@ -67,11 +67,13 @@ class people::umi_uyura {
   # install homebrew packages
   package {
     [
+	  'bash-completion',
 	  'ffmpeg',
       'ghostscript',
 	  'imagemagick',
       'lv',
 	  'meld',
+	  'mongodb',
 	  'pwgen',
       'subversion',
       'tig',
@@ -102,14 +104,17 @@ class people::umi_uyura {
       source => "http://support.apple.com/downloads/DL1572/ja_JP/JavaForOSX2014-001.dmg",
       provider => pkgdmg;
     'ClamXav':
-      source => "http://www.clamxav.com/downloads/ClamXav_2.6.3.dmg",
+      source => "http://www.clamxav.com/downloads/ClamXav_2.6.4.dmg",
       provider => appdmg;
     'AppCleaner':
       source => "http://www.freemacsoft.net/downloads/AppCleaner_2.2.3.zip",
       provider => compressed_app;
-    'TotalTerminal':
-      source => "http://downloads.binaryage.com/TotalTerminal-1.4.11.dmg",
-      provider => pkgdmg;
+#    'TotalTerminal':
+#      source => "http://downloads.binaryage.com/TotalTerminal-1.4.11.dmg",
+#      provider => pkgdmg;
+    'iTerm2':
+	   source => "https://iterm2.com/downloads/stable/iTerm2_v2_0.zip",
+	   provider => compressed_app;
     'Copy':
       source => "https://copy.com/install/mac/Copy.dmg",
       provider => appdmg;
@@ -119,20 +124,11 @@ class people::umi_uyura {
     'svnX':
       source => "https://svnx.googlecode.com/files/svnX%201.3.4.dmg",
       provider => appdmg;
-    'DiskWave':
-      source => "http://diskwave.barthe.ph/download/DiskWave_0.4.dmg",
-      provider => appdmg;
-    'Zipeg':
-      source => "http://www.zipeg.net/downloads/zipeg_mac.dmg",
-      provider => appdmg;
-    'Keka':
-      source => "http://download.kekaosx.com/Keka-1.0.4-intel.dmg",
-      provider => appdmg;
     'XMind':
       source => "http://www.xmind.net/xmind/downloads/xmind-macosx-3.4.1.201401221918.dmg",
       provider => appdmg;
     'Haroopad':
-      source => "https://dl.dropbox.com/s/yvjb90ywib551ex/haroopad-v0.12.0.dmg",
+      source => "https://bitbucket.org/rhiokim/haroopad-download/downloads/haroopad-v0.12.2.dmg",
       provider => appdmg;
     'GanttProject':
       source => "http://dl.ganttproject.biz/ganttproject-2.6.6/ganttproject-2.6.6-r1715.dmg",
@@ -144,6 +140,9 @@ class people::umi_uyura {
       source => "http://pngmini.com/ImageAlpha1.3.5.tar.bz2",
       provider => compressed_app,
       flavor => 'tbz';
+	'PixelWinch':
+	  source => "http://www.ricciadams.com/downloads/winch/PixelWinch.zip",
+	  provider => compressed_app;
     'Kobito':
       source => "http://kobito.qiita.com/download/Kobito_v1.9.2.zip",
       provider => compressed_app;
@@ -153,9 +152,15 @@ class people::umi_uyura {
     'AndroidFileTransfer':
       source => "https://dl.google.com/dl/androidjumper/mtp/current/androidfiletransfer.dmg",
 	  provider => appdmg;
-	'SQLiteBrowser':
-	  source => "http://jaist.dl.sourceforge.net/project/sqlitebrowser/sqlitebrowser/2.0%20beta1/sqlitebrowser_200_b1_osx.zip",
-	  provider => compressed_app;
+	'SimPholders':
+	  source => "http://kfi-apps.com/site/assets/files/1007/simpholders-1_5_0.dmg",
+	  provider => appdmg;
+	'DatabaseBrowser4SQLite':
+	  source => "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.3.1/sqlitebrowser-3.3.1v2.dmg",
+	  provider => appdmg;
+	'Robomongo':
+	  source => "http://robomongo.org/files/mac/Robomongo-0.8.4-x86_64.dmg",
+	  provider => appdmg;
 	'Onyx':
 	  source => "http://joel.barriere.pagesperso-orange.fr/dl/109/OnyX.dmg",
 	  provider => appdmg;
@@ -177,6 +182,7 @@ class people::umi_uyura {
   }
 
   $nodejs_modules = [
+    'npm-check-updates',
     'titanium',
     'titanium-code-processor',
     'alloy',
@@ -186,15 +192,22 @@ class people::umi_uyura {
 	'tn',
 	'ti-i18n',
     'gittio',
+	'ticons',
+	'alloy-smelter',
     'jslint',
 	'jshint',
+	'plato',
     'node-inspector',
+	'static',
     'express',
     'jade',
     'stylus',
     'roots',
     'phonegap',
-    'supervisor'
+    'supervisor',
+	'app.json',
+	'umi-uyura/showip',
+	'psi'
   ]
 
   nodejs::module { $nodejs_modules :
@@ -203,11 +216,11 @@ class people::umi_uyura {
 
   # LibreOffice settings
   class { 'libreoffice':
-    version => '4.2.5'
+    version => '4.3.2'
   }
   
   class { 'libreoffice::languagepack':
     locale => 'ja',
-	version => '4.2.5'
+	version => '4.3.2'
   }
 }
