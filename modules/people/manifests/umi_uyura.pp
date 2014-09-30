@@ -161,6 +161,9 @@ class people::umi_uyura {
 	'Robomongo':
 	  source => "http://robomongo.org/files/mac/Robomongo-0.8.4-x86_64.dmg",
 	  provider => appdmg;
+	'VagrantManager':
+	  source => "https://github.com/lanayotech/vagrant-manager/releases/download/2.0.3/vagrant-manager-2.0.3.dmg",
+	  provider => appdmg;
 	'Onyx':
 	  source => "http://joel.barriere.pagesperso-orange.fr/dl/109/OnyX.dmg",
 	  provider => appdmg;
