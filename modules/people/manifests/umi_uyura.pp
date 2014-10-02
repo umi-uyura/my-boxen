@@ -68,6 +68,7 @@ class people::umi_uyura {
   package {
     [
 	  'bash-completion',
+	  'dgate',
 	  'ffmpeg',
       'ghostscript',
 	  'imagemagick',
