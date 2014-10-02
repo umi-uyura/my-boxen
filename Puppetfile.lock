@@ -21,7 +21,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
-    chrome (1.1.2)
+    chrome (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-cyberduck
@@ -36,12 +36,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
-    dropbox (1.2.0)
+    dropbox (1.4.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.2.1)
+    firefox (1.2.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -106,7 +106,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.1.2)
+    java (1.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-keepassx
@@ -136,7 +136,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
-    osx (2.7.0)
+    osx (2.7.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-pgadmin3
@@ -176,12 +176,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-skitch
   specs:
-    skitch (1.0.2)
+    skitch (1.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
-    skype (1.0.8)
+    skype (1.0.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-sourcetree
@@ -196,12 +196,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.1.1)
+    vagrant (3.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.12)
+    virtualbox (1.0.13)
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
@@ -243,14 +243,13 @@ DEPENDENCIES
   bitcasa (= 3.0.0)
   boxen (= 3.7.0)
   caffeine (= 1.0.0)
-  chrome (= 1.1.2)
+  chrome (= 1.2.0)
   cyberduck (= 1.0.1)
   dnsmasq (= 2.0.0)
-  dropbox (= 1.2.0)
+  dropbox (= 1.4.0)
   filezilla (= 1.0.0)
-  firefox (= 1.2.1)
+  firefox (= 1.2.3)
   foreman (= 1.2.0)
-  dnsmasq (= 2.0.0)
   gcc (= 2.2.0)
   gimp (= 1.0.1)
   git (= 2.5.0)
@@ -263,15 +262,15 @@ DEPENDENCIES
   imageoptim (= 0.0.2)
   inifile (= 1.1.1)
   inkscape (= 1.0.3)
-  java (= 1.1.2)
+  java (= 1.7.0)
   keepassx (= 1.0.0)
   libreoffice (= 4.1.5)
-  module-data (= 0.0.3)
+  module_data (= 0.0.3)
   mplayerx (= 1.0.2)
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
   openssl (= 1.0.0)
-  osx (= 2.7.0)
+  osx (= 2.7.1)
   pgadmin3 (= 1.0.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
@@ -279,12 +278,13 @@ DEPENDENCIES
   repository (= 2.3.0)
   ruby (= 8.1.4)
   sequel_pro (= 1.0.1)
-  skitch (= 1.0.2)
-  skype (= 1.0.8)
+  skitch (= 1.0.3)
+  skype (= 1.0.9)
   sourcetree (= 1.0.0)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
-  vagrant (= 3.1.1)
-  virtualbox (= 1.0.12)
+  vagrant (= 3.2.0)
+  virtualbox (= 1.0.13)
   vlc (= 1.1.0)
   xquartz (= 1.2.1)
+
