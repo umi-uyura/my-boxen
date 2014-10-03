@@ -159,9 +159,9 @@ class people::umi_uyura {
 	'DatabaseBrowser4SQLite':
 	  source => "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.3.1/sqlitebrowser-3.3.1v2.dmg",
 	  provider => appdmg;
-	'Robomongo':
-	  source => "http://robomongo.org/files/mac/Robomongo-0.8.4-x86_64.dmg",
-	  provider => appdmg;
+# 	'Robomongo':
+# 	  source => "http://robomongo.org/files/mac/Robomongo-0.8.4-x86_64.dmg",
+# 	  provider => appdmg;
 	'VagrantManager':
 	  source => "https://github.com/lanayotech/vagrant-manager/releases/download/2.0.3/vagrant-manager-2.0.3.dmg",
 	  provider => appdmg;
@@ -170,9 +170,6 @@ class people::umi_uyura {
 	  provider => appdmg;
     'Wi2Connect':
       source => "https://service.wi2.ne.jp/sw/autoLogin/MacOSX/Wi2-Connect-MacOSX.dmg",
-      provider => appdmg;
-    '1CheckerForMac':
-      source => "http://www.1checker.com/download?file=1Checker_for_Mac.dmg",
       provider => appdmg;
   }
 
