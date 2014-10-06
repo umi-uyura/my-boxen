@@ -77,6 +77,7 @@ class people::umi_uyura {
 	  'mongodb',
 	  'pwgen',
       'subversion',
+	  'terminal-notifier',
       'tig',
       'tree',
       'wget',
