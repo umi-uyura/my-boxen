@@ -198,6 +198,7 @@ class people::umi_uyura {
 	'alloy-smelter',
     'jslint',
 	'jshint',
+	'jscs',
 	'plato',
     'node-inspector',
 	'node-static',
