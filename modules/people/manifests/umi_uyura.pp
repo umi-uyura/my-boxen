@@ -192,6 +192,8 @@ class people::umi_uyura {
     'tishadow',
     'ti-inspector',
 	'tn',
+	'tiapp.xml',
+	'dev.tiapp',
 	'ti-i18n',
     'gittio',
 	'ticons',
