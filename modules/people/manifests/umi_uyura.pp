@@ -71,6 +71,7 @@ class people::umi_uyura {
 	  'dgate',
 	  'ffmpeg',
       'ghostscript',
+	  'gifsicle',
 	  'imagemagick',
       'lv',
 	  'meld',
