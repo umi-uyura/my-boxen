@@ -73,6 +73,7 @@ class people::umi_uyura {
       'ghostscript',
 	  'gifsicle',
 	  'imagemagick',
+	  'jq',
       'lv',
 	  'meld',
 	  'mongodb',
