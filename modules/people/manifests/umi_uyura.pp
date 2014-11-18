@@ -52,7 +52,7 @@ class people::umi_uyura {
   #include osx::finder::show_external_hard_drives_on_desktop
   #include osx::finder::show_mounted_servers_on_desktop
   #include osx::finder::show_removable_media_on_desktop
-  include osx::finder::empty_trash_securely
+  #include osx::finder::empty_trash_securely
   include osx::finder::unhide_library
   include osx::no_network_dsstores
 
