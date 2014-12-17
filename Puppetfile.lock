@@ -24,11 +24,6 @@ GITHUBTARBALL
     chrome (1.2.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-cyberduck
-  specs:
-    cyberduck (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.1)
@@ -36,7 +31,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
-    dropbox (1.4.0)
+    dropbox (1.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-firefox
@@ -106,7 +101,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.7.0)
+    java (1.7.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-keepassx
@@ -152,11 +147,6 @@ GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-postgresapp
-  specs:
-    postgresapp (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -234,9 +224,19 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 GITHUBTARBALL
+  remote: steveatkins/puppet-postgresapp
+  specs:
+    postgresapp (1.0.0)
+
+GITHUBTARBALL
   remote: umi-uyura/puppet-libreoffice
   specs:
     libreoffice (4.1.5)
+
+GITHUBTARBALL
+  remote: webdizz/puppet-cyberduck
+  specs:
+    cyberduck (1.0.2)
 
 DEPENDENCIES
   adobe_reader (= 1.2.0)
@@ -244,9 +244,9 @@ DEPENDENCIES
   boxen (= 3.7.0)
   caffeine (= 1.0.0)
   chrome (= 1.2.0)
-  cyberduck (= 1.0.1)
+  cyberduck (= 1.0.2)
   dnsmasq (= 2.0.1)
-  dropbox (= 1.4.0)
+  dropbox (= 1.4.1)
   filezilla (= 1.0.0)
   firefox (= 1.2.3)
   foreman (= 1.2.0)
@@ -262,13 +262,11 @@ DEPENDENCIES
   imageoptim (= 0.0.2)
   inifile (= 1.1.1)
   inkscape (= 1.0.3)
-  java (= 1.7.0)
+  java (= 1.7.1)
   keepassx (= 1.0.0)
   libreoffice (= 4.1.5)
   module_data (= 0.0.3)
   mplayerx (= 1.0.2)
-  nginx (= 1.4.3)
-  nodejs (= 3.8.1)
   nginx (= 1.4.4)
   nodejs (= 4.0.0)
   openssl (= 1.0.0)
